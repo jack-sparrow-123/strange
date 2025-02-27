@@ -105,7 +105,18 @@ body {
     margin: 10px;
     vertical-align: top;
   }
-  
+
+@media (max-width: 768px) {
+    .additional-history .fact {
+        width: 45%; /* Two columns on tablets and small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .additional-history .fact {
+        width: 100%; /* One column on mobile devices */
+    }
+}
   footer {
     text-align: center;
     padding: 10px;
